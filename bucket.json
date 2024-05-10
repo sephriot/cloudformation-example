@@ -5,7 +5,6 @@
             "Type": "AWS::S3::Bucket",
             "Properties": {
                 "BucketName": "sephriot-example-s3-bucket",
-                "AccessControl": "PublicRead",
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
                     "ErrorDocument": "error.html"
